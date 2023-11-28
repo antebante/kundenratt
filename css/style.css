@@ -1,0 +1,31 @@
+#wrapper {
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'nav nav nav'
+    'poty poty poty'
+    'top top top';
+}
+
+header{
+    background-color: blanchedalmond;
+    grid-area: hd;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    background-color: grey ;
+    grid-area: nav;
+}
+
+#poty{
+    background-color: brown;
+    grid-area: poty;
+}
+
+#top10{
+    background-color: aliceblue;
+    grid-area: top;
+}
