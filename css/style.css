@@ -27,6 +27,11 @@ header h1{
 header img{
     height: 150px;
     width: auto;
+    transition: transform 2s;
+}
+
+header img:hover{
+    transform: rotate(360deg);
 }
 
 nav{
