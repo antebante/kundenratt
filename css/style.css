@@ -1,6 +1,8 @@
 #wrapper {
-    background-color: #FCDDA9;
-    display: grid;
+    /* background: rgb(252,221,169); */
+    /* background: rgb(252,221,169); */
+    padding: 2rem;
+    background: linear-gradient(129deg, rgba(252,221,169,1) 32%, rgba(113,224,199,1) 100%);    display: grid;
     grid-template-areas: 
     'hd hd hd'
     'sec sec sec'
@@ -13,7 +15,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: solid black 1.5px;
 }
 
 header h1{
@@ -25,8 +28,8 @@ header h1{
 }
 
 header img{
-    height: 150px;
-    width: auto;
+    height: auto;
+    width: 168.92px;
     transition: transform 2s;
 }
 
@@ -35,6 +38,8 @@ header img:hover{
 }
 
 nav{
+    width:168.92px;
+    border-left: solid black 1px;
     grid-area: nav;
     display: flex;
 }
@@ -46,18 +51,17 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: #26959f;
+    font-size: 20px;
+    color: #27ae60;
     font-family: "latex-top", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 section{
-    background-color: #26959f;
     grid-area: sec;
 }
 
 main{
-    background-color: aliceblue;
     grid-area: main;
 }
