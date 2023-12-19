@@ -65,3 +65,81 @@ section{
 main{
     grid-area: main;
 }
+
+article{
+    z-index: 5;
+    position: relative;
+}
+
+#cardwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+#cardwrapper section{
+    border: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    grid-area:sec;
+}
+
+#cardwrapper section p {
+    font-size: xx-large;
+    color: aqua;
+    text-shadow: 0 0 10px black;
+} 
+
+article {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardwrapper section div{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+
+    
+}
+
+#cardwrapper section:hover div{
+    filter: blur(10px);
+}
+
+#s1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/640px-Roasted_coffee_beans.jpg);
+
+}
+
+#s2{
+    background-image: url(https://cdn.shopify.com/s/files/1/0601/8783/6659/files/Coffee-brewing-in-moka-pot_480x480.jpg?v=1673480559);
+
+}
+
+#s3{
+    background-image: url(https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8=);
+
+}
+
+#s4{
+    background-image: url(https://nutritionfacts.org/app/uploads/2022/06/coffee.jpg);
+
+}
+
+#s5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVX0KrbYGpnnIrVtzriyCUfY6gBFqNVUlfbQ&usqp=CAU);
+
+}
