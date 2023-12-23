@@ -58,13 +58,15 @@ nav ul li a{
     font-style: normal;
 }
 
-section{
-    grid-area: sec;
-}
+
 
 main{
     grid-area: main;
 }
+
+
+/* Senaste inlägg CSS kod */
+
 
 article{
     z-index: 5;
